@@ -3,7 +3,7 @@
 <p align="center"><b> 中文 | <a href="./readme_en.md"> English </a>  </b></p>
 
 
-> > ***快速部署一个图片添加水印的应用到阿里云函数计算***
+> ***快速部署一个图片添加水印的应用到阿里云函数计算***
 
 Serverless Devs的组件开发案例已经被集成到Serverless Devs命令行工具中，通过对Serverless Devs的命令行工具，可以进行空白应用项目的初始化，开发者只需要执行`s init`即可看到：
 
@@ -24,12 +24,15 @@ Serverless Devs的组件开发案例已经被集成到Serverless Devs命令行�
 
 部署完成之后，您可以看到系统返回给您的案例地址，例如：
 
-![](./image/b.png)
+![](https://github.com/liufangchen/start-image-watermark/raw/main/image/b.png)
 
 
 此时，打开案例地址，通过Get请求可以进行水印绘制：
+
 
 | 参数 |  说明 | 缺省 |   
 | --- |  --- | --- |  
 | url | 图片路径 | https://pic.netbian.com/uploads/allimg/161001/095746-1475287066579f.jpg |    
 | text | 水印 | watermark |    
+
+例如：http://start-image-watermark.testservice.1401662146685254.cn-hangzhou.fc.devsapp.net/water?text=beautiful&&url=https://pic.netbian.com/uploads/allimg/220711/002225-16574701457687.jpg
